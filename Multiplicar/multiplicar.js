@@ -22,7 +22,7 @@ let crearArchivo = (base, limite = 10) => {
         }
 
         //const data = new Uint8Array(Buffer.from('Hello Node.js'));
-        fs.writeFile(`Tablas/tabla-${base} al ${limite}.txt`, data, (err) => {
+        fs.writeFile(`tablas/tabla-${base} al ${limite}.txt`, data, (err) => {
             if (err)
                 reject(err)
             else
